@@ -1,4 +1,4 @@
-public class MyApp.Window ; Gtk.Application {
+public class MyApp.Window : Gtk.ApplicationWindow {
     public Window (Application app) {
         Object (
             application: app
@@ -9,9 +9,7 @@ public class MyApp.Window ; Gtk.Application {
 
         title = "Dapir";
         window_position = Gtk.WindowPosition.CENTER;
-        set_default_height = 300;
-        set_default_width = 300;
-        
+        set_default_size (300, 300);
         show_all ();
     }
 }

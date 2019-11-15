@@ -13,6 +13,5 @@ public class Application : Gtk.Application {
         add_window (window);
     
     }
-
     
 }
