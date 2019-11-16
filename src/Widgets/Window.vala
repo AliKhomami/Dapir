@@ -12,8 +12,8 @@ public class Dapir.Window : Gtk.ApplicationWindow {
         set_default_size (300, 300);
         
         var settings = new GLib.Settings ("com.github.AliKhomami.Dapir");
-        move (settings.get_int ("pos-x"), setting.get_int ("pos-y"));
-        
+        move (settings.get_int ("pos-x"), settings.get_int ("pos-y"));
+
         
         show_all ();
     }
