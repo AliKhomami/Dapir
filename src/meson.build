@@ -13,5 +13,4 @@ executable(
     ],
     
     install: true
-    
 )

@@ -1,4 +1,5 @@
 public class Dapir.Window : Gtk.ApplicationWindow {
+    
     public Window (Application app) {
         Object (
             application: app
